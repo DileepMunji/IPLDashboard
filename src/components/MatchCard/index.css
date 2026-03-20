@@ -1,0 +1,71 @@
+.match-card-item {
+  width: calc(50% - 8px);
+  background-color: #0f172a;
+  border-radius: 10px;
+  padding: 18px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 250px;
+}
+
+.match-team-logo {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 14px;
+}
+
+.match-team-name {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 0 16px 0;
+  line-height: 1.4;
+}
+
+.match-result {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 0 16px 0;
+  line-height: 1.5;
+}
+
+.match-status {
+  font-size: 18px;
+  margin: 0;
+}
+
+.won-text {
+  color: #18ed66;
+}
+
+.lost-text {
+  color: #e31a1a;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card-item {
+    width: calc(33.33% - 16px);
+    min-height: 320px;
+    padding: 24px 16px;
+  }
+
+  .match-team-logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 18px;
+  }
+
+  .match-team-name {
+    font-size: 24px;
+  }
+
+  .match-result {
+    font-size: 16px;
+  }
+
+  .match-status {
+    font-size: 24px;
+  }
+}

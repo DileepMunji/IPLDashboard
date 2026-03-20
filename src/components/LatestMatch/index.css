@@ -1,0 +1,104 @@
+.latest-match-card {
+  background-color: #0f172a;
+  border-radius: 12px;
+  padding: 16px;
+  color: #ffffff;
+}
+
+.latest-match-top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latest-match-left {
+  width: 55%;
+}
+
+.latest-team-name {
+  font-size: 22px;
+  margin: 0 0 10px 0;
+}
+
+.latest-date {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+}
+
+.latest-para {
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0 0 8px 0;
+}
+
+.latest-team-logo {
+  width: 120px;
+  height: 120px;
+}
+
+.separator {
+  border: 1px solid #475569;
+  margin: 16px 0;
+}
+
+.latest-match-right {
+  text-align: left;
+}
+
+.label {
+  font-size: 14px;
+  margin: 0 0 6px 0;
+}
+
+.value {
+  font-size: 12px;
+  margin: 0 0 16px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-card {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .latest-match-top-section {
+    width: 58%;
+  }
+
+  .separator {
+    height: 180px;
+    margin: 0 24px;
+  }
+
+  .latest-match-right {
+    width: 25%;
+    text-align: right;
+  }
+
+  .latest-team-name {
+    font-size: 36px;
+  }
+
+  .latest-date {
+    font-size: 24px;
+  }
+
+  .latest-para {
+    font-size: 16px;
+  }
+
+  .latest-team-logo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .label {
+    font-size: 18px;
+  }
+
+  .value {
+    font-size: 16px;
+  }
+}
